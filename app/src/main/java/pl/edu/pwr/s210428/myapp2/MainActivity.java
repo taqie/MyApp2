@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        wygr = null;
         buttons = new Button[9];
         win = new int[9];
         for(int i=0;i<=8;i++)
