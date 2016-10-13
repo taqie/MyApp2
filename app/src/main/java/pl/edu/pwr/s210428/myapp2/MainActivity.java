@@ -254,7 +254,7 @@ public class MainActivity extends AppCompatActivity {
 
         return false;
     }
-    
+
 
     private boolean allchar(int n, int z, Game game)
     {
