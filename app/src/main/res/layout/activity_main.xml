@@ -114,4 +114,14 @@
         android:layout_below="@+id/button7"
         android:layout_toLeftOf="@+id/button7"
         android:layout_toStartOf="@+id/button7" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/button10"
+        android:layout_toEndOf="@+id/button10"
+        android:layout_marginBottom="51dp"
+        android:id="@+id/textView2" />
 </RelativeLayout>
