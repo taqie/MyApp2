@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyApp2</string>
+    <string name="player1">Gracz 1</string>
+    <string name="player2">Gracz 2</string>
+    <string name="wintext">Wygrał gracz : </string>
+    <string name="move">Ruch gracza : </string>
+</resources>

@@ -158,9 +158,9 @@ public class MainActivity extends AppCompatActivity {
     private void init() {
         n=3;
         game = new Game();
-        p1 = new Player("Player 1","X",true,1);
-        p2 = new Player("Player 2","O",false,2);
-        textwin.setText("Wygrał gracz = ");
+        p1 = new Player(""+R.string.player1,"X",true,1);
+        p2 = new Player(""+R.string.player2,"O",false,2);
+        textwin.setText(""+R.string.wintext);
     }
 
 
@@ -202,7 +202,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void whoplayer(Player p) {
-        text.setText("Ruch Gracza "+p.name);
+        text.setText(""+R.string.move+p.name);
     }
 
     private void changeplayer(Game game)
@@ -284,14 +284,14 @@ public class MainActivity extends AppCompatActivity {
             {
                 if(allchar(n,z,game))
                 {
-                    textwin.setText("Wygrał gracz : "+game.active.name);
+                    textwin.setText(""+R.string.wintext+game.active.name);
                     setButtonsenab(false);
                 }
             }
         }
         if(pion(game))
         {
-            textwin.setText("Wygrał gracz : "+game.active.name);
+            textwin.setText(""+R.string.wintext+game.active.name);
             setButtonsenab(false);
         }
     }
